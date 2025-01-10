@@ -4,10 +4,11 @@ Welcome to **Frontend Knowledge Hub**, a collaborative space where frontend deve
 
 Our mission is to create a centralized knowledge base for frontend technologies, best practices, and helpful resources. Whether you're exploring a new framework, looking for code snippets, or need help with a tricky issue, you've come to the right place.
 
+Our team loves discovering new frontend tools and trends—feel free to share your favorites!
 
 ## 🌟 What We're About
 We aim to:
-- 📚 Share knowledge through curated repositories on key frontend topics like **Vue**, **React**, **Web Best Practices**, and more.
+- 📚 Share knowledge through curated repositories on key frontend topics like **[Vue](https://github.com/frontend-knowledge-hub/vue-hub)**, **React**, **Web**, and more.
 - 🤝 Foster collaboration through GitHub Boards, Issues, and Discussions.
 - 💡 Provide a platform for both asking questions and offering insights.
 - 🛠️ Encourage the community to contribute code snippets, guides, and useful links.
@@ -20,18 +21,11 @@ We'd love for you to get involved! Here's how:
 3. **Collaborate on GitHub Boards**: Join in reviewing code or helping others through tasks and discussions.
 4. **Use Issues**: Create or contribute to Issues to discuss ideas, ask questions, or suggest improvements.
 
-Make sure to read our [Contribution Guidelines](CONTRIBUTING.md) before submitting your first contribution!
-
 
 ## 👩‍💻 Resources
 - **Documentation**: Find guidelines and tips for each repository in their respective `README.md` files.
 - **Templates**: Use our templates for Issues and Pull Requests to streamline contributions.
 - **Discussions**: Join the conversation in our GitHub Discussions to ask questions or share insights.
-
-
-## 🎉 Fun Facts
-- Our team loves discovering new frontend tools and trends—feel free to share your favorites!
-- Did you know? The idea for this hub started over a conversation about optimizing state management in Vue. 😄
 
 
 ## 🧙 Stay Connected
