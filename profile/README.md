@@ -29,6 +29,6 @@ We'd love for you to get involved! Here's how:
 
 
 ## 🧙 Stay Connected
-Remember, you can do mighty things with the power of collaboration and the magic of frontend development! If you have any questions, feel free to open an Issue or start a [Discussion](https://github.com/frontend-knowledge-hub/discussions).
+Remember, you can do mighty things with the power of collaboration and the magic of frontend development! If you have any questions, feel free to open an Issue or start a [Discussion](https://github.com/orgs/frontend-knowledge-hub/discussions).
 
 Let's build something amazing together! 🚀
