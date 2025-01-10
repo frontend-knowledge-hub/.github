@@ -8,7 +8,7 @@ Our team loves discovering new frontend tools and trends—feel free to share yo
 
 ## 🌟 What We're About
 We aim to:
-- 📚 Share knowledge through curated repositories on key frontend topics like **[Vue](https://github.com/frontend-knowledge-hub/vue-hub)**, **[React](https://github.com/frontend-knowledge-hub/react-hub)**,, **[Angular](https://github.com/frontend-knowledge-hub/angular-hub)** **[Web](https://github.com/frontend-knowledge-hub/web-hub)**, and more.
+- 📚 Share knowledge through curated repositories on key frontend topics like **[Vue](https://github.com/frontend-knowledge-hub/vue-hub)**, **[React](https://github.com/frontend-knowledge-hub/react-hub)**, **[Angular](https://github.com/frontend-knowledge-hub/angular-hub)**, **[Web](https://github.com/frontend-knowledge-hub/web-hub)**, and more.
 - 🤝 Foster collaboration through GitHub Boards, Issues, and Discussions.
 - 💡 Provide a platform for both asking questions and offering insights.
 - 🛠️ Encourage the community to contribute code snippets, guides, and useful links.
