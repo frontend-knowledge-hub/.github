@@ -13,10 +13,6 @@ We aim to:
 - 💡 Provide a platform for both asking questions and offering insights.
 - 🛠️ Encourage the community to contribute code snippets, guides, and useful links.
 
-## Contributors
-<!-- ALL-CONTRIBUTORS-LIST:START -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 ## 🌈 How to Contribute
 We'd love for you to get involved! Here's how:
 1. **Explore our Repositories**: Check out repositories on topics you're passionate about or want to learn.
