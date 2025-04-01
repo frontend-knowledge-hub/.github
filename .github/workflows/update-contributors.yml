@@ -31,16 +31,16 @@ jobs:
 
       - name: Create branch
         run: |
-          git checkout -b auto-update-contributors
+          git checkout -b feat/auto-update-contributors
           git add .
           git commit -m "chore: Auto-update top contributors"
-          git push origin auto-update-contributors
+          git push origin feat/auto-update-contributors
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: Auto-update top contributors"
-          branch: auto-update-contributors
+          branch: feat.auto-update-contributors
           title: "Auto-update top contributors"
           body: "This PR was created automatically"
