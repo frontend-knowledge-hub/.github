@@ -1,0 +1,35 @@
+name: Generate Top Contributors Leaderboard
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate Top Contributors Leaderboard
+        uses: ishakhorski/top-contributors@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output: CONTRIBUTORS.md
+          limit: 10
+
+      - name: Commit and push if README.md changed
+        run: |
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+          else
+            git commit -m "📈 Update top contributors leaderboard [auto]"
+            git push
+          fi
