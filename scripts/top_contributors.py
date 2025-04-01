@@ -61,7 +61,7 @@ def update_readme(content):
     else:
         updated_readme = readme + f"\n\n{start_marker}\n{content}\n{end_marker}"
 
-    with open("README.md", "w", encoding="utf-8") as f:
+    with open("profile/README.md", "w", encoding="utf-8") as f:
         f.write(updated_readme)
 
 def main():
