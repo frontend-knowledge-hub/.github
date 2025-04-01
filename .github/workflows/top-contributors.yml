@@ -10,12 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Set up Git user
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        uses: actions/checkout@v4
 
       - name: Generate Top Contributors Leaderboard
         uses: ishakhorski/top-contributors@v1
@@ -24,9 +19,14 @@ jobs:
           output: CONTRIBUTORS.md
           limit: 10
 
-      - name: Commit and push if README.md changed
+      - name: Set up Git user
         run: |
-          git add README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push if CONTRIBUTORS.md changed
+        run: |
+          git add CONTRIBUTORS.md
           if git diff --cached --quiet; then
             echo "✅ No changes to commit"
           else
