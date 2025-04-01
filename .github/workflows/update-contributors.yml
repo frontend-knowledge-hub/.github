@@ -27,5 +27,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add profile/README.md
-          git commit -m "feat: 🔄 Auto-update top contributors"
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "feat: 🔄 Auto-update top contributors"
+            git push
+          else
+            echo "No changes to commit"
+          fi
