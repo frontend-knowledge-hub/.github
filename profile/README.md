@@ -14,8 +14,8 @@ We aim to:
 - 🛠️ Encourage the community to contribute code snippets, guides, and useful links.
 
 ## Contributors
-<!-- ALL-CONTRIBUTORS-LIST:START -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- START:top-contributors -->
+<!-- END:top-contributors -->
 
 ## 🌈 How to Contribute
 We'd love for you to get involved! Here's how:
