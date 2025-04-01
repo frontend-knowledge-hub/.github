@@ -1,5 +1,4 @@
 const fs = require("fs");
-require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_ORG = process.env.GITHUB_ORG;
