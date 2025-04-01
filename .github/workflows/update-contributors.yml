@@ -43,14 +43,6 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Create branch, commit, and push changes
-        if: steps.check_changes.outputs.changed == 'true'
-        run: |
-          git checkout -b feat/auto-update-contributors-${{ github.run_id }}
-          git add .
-          git commit -m "chore: Auto-update top contributors"
-          git push origin feat/auto-update-contributors-${{ github.run_id }}
-
       - name: Create Pull Request
         if: steps.check_changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v7
@@ -58,11 +50,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: Auto-update top contributors"
           base: main
-          branch: feat/auto-update-contributors-${{ github.run_id }}
-          title: "Auto-update top contributors [${{ github.run_id }}]"
+          branch: feat/auto-update-contributors
+          title: "Auto-update top contributors"
           body: |
             This PR was created automatically by a GitHub Action.
-            
+
             - Run ID: ${{ github.run_id }}
             - Run Number: ${{ github.run_number }}
             - Triggered by: ${{ github.event_name }}
