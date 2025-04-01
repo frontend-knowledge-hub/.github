@@ -13,7 +13,7 @@ We aim to:
 - 💡 Provide a platform for both asking questions and offering insights.
 - 🛠️ Encourage the community to contribute code snippets, guides, and useful links.
 
-## Contributors
+## 🏆 Top Contributors
 <!-- START:top-contributors -->
 <!-- END:top-contributors -->
 
