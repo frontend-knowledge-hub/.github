@@ -29,6 +29,11 @@ jobs:
           GITHUB_ORG: frontend-knowledge-hub
         run: node scripts/update-contributors.js
 
+      - name: Configure Git user
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
       - name: Create branch
         run: |
           git checkout -b feat/auto-update-contributors
@@ -41,6 +46,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: Auto-update top contributors"
-          branch: feat.auto-update-contributors
-          title: "Auto-update top contributors"
-          body: "This PR was created automatically"
+          branch: feat/auto-update-contributors
+          title: "Auto-update top contributors [${{ github.run_id }}]"
+          body: |
+            This PR was created automatically by a GitHub Action.
+            
+            - Run ID: ${{ github.run_id }}
+            - Run Number: ${{ github.run_number }}
+            - Triggered by: ${{ github.event_name }}
