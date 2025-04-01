@@ -27,9 +27,15 @@ def count_contributions(repo, user):
     pr_url = f"https://api.github.com/search/issues?q=repo:{repo}+type:pr+author:{user}"
     issue_url = f"https://api.github.com/search/issues?q=repo:{repo}+type:issue+author:{user}"
     
-    pr_count = requests.get(pr_url, headers=HEADERS).json().get('total_count', 0)
-    issue_count = requests.get(issue_url, headers=HEADERS).json().get('total_count', 0)
+    pr_res = requests.get(pr_url, headers=HEADERS)
+    if pr_res.status_code != 200:
+        raise Exception(f"Failed to fetch PRs for {repo} and {user}: {pr_res.status_code}")
+    pr_count = pr_res.json().get('total_count', 0)
     
+    issue_res = requests.get(issue_url, headers=HEADERS)
+    if issue_res.status_code != 200:
+        raise Exception(f"Failed to fetch issues for {repo} and {user}: {issue_res.status_code}")
+    issue_count = issue_res.json().get('total_count', 0)
     return pr_count, issue_count
 
 def generate_table(user_scores):
