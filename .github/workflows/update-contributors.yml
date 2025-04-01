@@ -19,7 +19,7 @@ jobs:
 
       - name: Run script
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN  }}
         run: python scripts/top_contributors.py
 
       - name: Commit and push

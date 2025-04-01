@@ -2,7 +2,7 @@ import requests
 import os
 from collections import defaultdict
 
-GITHUB_TOKEN = os.getenv("GH_TOKEN")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN ")
 ORG = "frontend-knowledge-hub"
 
 HEADERS = {
