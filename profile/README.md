@@ -13,14 +13,6 @@ We aim to:
 - 💡 Provide a platform for both asking questions and offering insights.
 - 🛠️ Encourage the community to contribute code snippets, guides, and useful links.
 
-## 🏆 Top Contributors
-<!-- START:top-contributors -->
-| Rank | Avatar | User | Commits | PRs | Issues | Score |
-|------|--------|------|---------|-----|--------|-------|
-| 1 | <img src="https://github.com/ishakhorski.png?size=40" width="40" height="40"> | [ishakhorski](https://github.com/ishakhorski) | 81 | 12 | 12 | 477 |
-| 2 | <img src="https://github.com/vNovski.png?size=40" width="40" height="40"> | [vNovski](https://github.com/vNovski) | 8 | 3 | 3 | 58 |
-<!-- END:top-contributors -->
-
 ## 🌈 How to Contribute
 We'd love for you to get involved! Here's how:
 1. **Explore our Repositories**: Check out repositories on topics you're passionate about or want to learn.
