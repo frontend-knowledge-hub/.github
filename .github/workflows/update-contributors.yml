@@ -29,14 +29,18 @@ jobs:
           GITHUB_ORG: frontend-knowledge-hub
         run: node scripts/update-contributors.js
 
-      - name: Push changes
+      - name: Create branch
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile/README.md
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "feat: Auto-update top contributors"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git checkout -b auto-update-contributors
+          git add .
+          git commit -m "chore: Auto-update top contributors"
+          git push origin auto-update-contributors
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: Auto-update top contributors"
+          branch: auto-update-contributors
+          title: "Auto-update top contributors"
+          body: "This PR was created automatically"
