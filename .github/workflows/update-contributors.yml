@@ -42,10 +42,11 @@ jobs:
           git push origin feat/auto-update-contributors
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: Auto-update top contributors"
+          base: main
           branch: feat/auto-update-contributors
           title: "Auto-update top contributors [${{ github.run_id }}]"
           body: |
