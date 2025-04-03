@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Top Contributors Leaderboard
-        uses: ishakhorski/top-contributors@v2
+        uses: ishakhorski/top-contributors@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           output: profile/README.md
