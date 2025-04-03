@@ -34,5 +34,5 @@ jobs:
           commit-message: "📈 Update top contributors leaderboard [auto]"
           branch: auto/update-leaderboard
           title: "📊 Weekly Top Contributors Update"
-          body: "This PR updates the CONTRIBUTORS.md file with the latest top contributors."
+          body: "This PR updates the README.md file with the latest top contributors."
           author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
