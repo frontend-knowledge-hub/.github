@@ -16,14 +16,13 @@ We aim to:
 ## 🏆 Top Contributors
 
 <!-- TOP-CONTRIBUTORS-START -->
-## 🏆 Top Contributors for frontend-knowledge-hub Organization
 
 | Rank | User | Karma |
 | :---: | :---: | :---: |
-| 1 | <a href="https://github.com/ishakhorski"><img src="https://github.com/ishakhorski.png" width="50px" style="border-radius:50%"><br /><sub>@ishakhorski</sub></a> | 264 |
+| 1 | <a href="https://github.com/ishakhorski"><img src="https://github.com/ishakhorski.png" width="50px" style="border-radius:50%"><br /><sub>@ishakhorski</sub></a> | 270 |
 | 2 | <a href="https://github.com/vNovski"><img src="https://github.com/vNovski.png" width="50px" style="border-radius:50%"><br /><sub>@vNovski</sub></a> | 39 |
-| 3 | <a href="https://github.com/copilot-pull-request-reviewer[bot]"><img src="https://github.com/copilot-pull-request-reviewer[bot].png" width="50px" style="border-radius:50%"><br /><sub>@copilot-pull-request-reviewer[bot]</sub></a> | 20 |
-| 4 | <a href="https://github.com/github-actions[bot]"><img src="https://github.com/github-actions[bot].png" width="50px" style="border-radius:50%"><br /><sub>@github-actions[bot]</sub></a> | 19 |
+| 3 | <a href="https://github.com/github-actions[bot]"><img src="https://github.com/github-actions[bot].png" width="50px" style="border-radius:50%"><br /><sub>@github-actions[bot]</sub></a> | 26 |
+| 4 | <a href="https://github.com/copilot-pull-request-reviewer[bot]"><img src="https://github.com/copilot-pull-request-reviewer[bot].png" width="50px" style="border-radius:50%"><br /><sub>@copilot-pull-request-reviewer[bot]</sub></a> | 20 |
 
 _Last updated: 2025-04-03_
 <!-- TOP-CONTRIBUTORS-END -->
