@@ -20,10 +20,10 @@ We aim to:
 
 | Rank | User | Karma |
 | :---: | :---: | :---: |
-| 1 | <a href="https://github.com/ishakhorski"><img src="https://github.com/ishakhorski.png" width="50px" style="border-radius:50%"><br /><sub>@ishakhorski</sub></a> | 256 |
+| 1 | <a href="https://github.com/ishakhorski"><img src="https://github.com/ishakhorski.png" width="50px" style="border-radius:50%"><br /><sub>@ishakhorski</sub></a> | 264 |
 | 2 | <a href="https://github.com/vNovski"><img src="https://github.com/vNovski.png" width="50px" style="border-radius:50%"><br /><sub>@vNovski</sub></a> | 39 |
 | 3 | <a href="https://github.com/copilot-pull-request-reviewer[bot]"><img src="https://github.com/copilot-pull-request-reviewer[bot].png" width="50px" style="border-radius:50%"><br /><sub>@copilot-pull-request-reviewer[bot]</sub></a> | 20 |
-| 4 | <a href="https://github.com/github-actions[bot]"><img src="https://github.com/github-actions[bot].png" width="50px" style="border-radius:50%"><br /><sub>@github-actions[bot]</sub></a> | 12 |
+| 4 | <a href="https://github.com/github-actions[bot]"><img src="https://github.com/github-actions[bot].png" width="50px" style="border-radius:50%"><br /><sub>@github-actions[bot]</sub></a> | 19 |
 
 _Last updated: 2025-04-03_
 <!-- TOP-CONTRIBUTORS-END -->
