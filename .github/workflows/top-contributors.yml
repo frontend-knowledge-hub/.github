@@ -3,11 +3,15 @@ name: Generate Top Contributors Leaderboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 0 * * 1'  # Every Monday at midnight UTC
 
 jobs:
   generate-leaderboard:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,17 +23,12 @@ jobs:
           output: CONTRIBUTORS.md
           limit: 10
 
-      - name: Set up Git user
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit and push if CONTRIBUTORS.md changed
-        run: |
-          git add CONTRIBUTORS.md
-          if git diff --cached --quiet; then
-            echo "✅ No changes to commit"
-          else
-            git commit -m "📈 Update top contributors leaderboard [auto]"
-            git push
-          fi
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "📈 Update top contributors leaderboard [auto]"
+          branch: auto/update-leaderboard
+          title: "📊 Weekly Top Contributors Update"
+          body: "This PR updates the CONTRIBUTORS.md file with the latest top contributors."
+          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
