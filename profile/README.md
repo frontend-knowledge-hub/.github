@@ -17,11 +17,10 @@ We aim to:
 
 <!-- TOP-CONTRIBUTORS-START -->
 
-| Rank | User | Karma |
-| :---: | :---: | :---: |
-| 1 | <a href="https://github.com/ishakhorski"><img src="https://github.com/ishakhorski.png" width="50px" style="border-radius:50%"><br /><sub>@ishakhorski</sub></a> | 276 |
-| 2 | <a href="https://github.com/vNovski"><img src="https://github.com/vNovski.png" width="50px" style="border-radius:50%"><br /><sub>@vNovski</sub></a> | 39 |
-
+| 🏆 Rank | 👤 User | 🔥 Karma |
+|:-------:|:--------:|:--------:|
+| 🥇 | <a href="https://github.com/ishakhorski"><img src="https://github.com/ishakhorski.png" width="40px"><br />@ishakhorski</a> | 282 |
+| 🥈 | <a href="https://github.com/vNovski"><img src="https://github.com/vNovski.png" width="40px"><br />@vNovski</a> | 39 |
 _Last updated: 2025-04-03_
 <!-- TOP-CONTRIBUTORS-END -->
 
