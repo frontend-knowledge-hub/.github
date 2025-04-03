@@ -19,7 +19,7 @@ We aim to:
 
 | 🏆 Rank | 👤 User | 🔥 Karma |
 |:-------:|:--------:|:--------:|
-| 🥇 | <a href="https://github.com/ishakhorski">@ishakhorski</a> | 290 |
+| 🥇 | <a href="https://github.com/ishakhorski">@ishakhorski</a> | 298 |
 | 🥈 | <a href="https://github.com/vNovski">@vNovski</a> | 39 |
 
 _Last updated: 2025-04-03_
