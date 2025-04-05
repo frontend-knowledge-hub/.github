@@ -16,13 +16,11 @@ We aim to:
 ## 🏆 Top Contributors
 
 <!-- TOP-CONTRIBUTORS-START -->
-
 | 🏆 Rank | 👤 User | 🔥 Karma |
 |:-------:|:--------:|:--------:|
-| 🥇 | <a href="https://github.com/ishakhorski">@ishakhorski</a> | 298 |
-| 🥈 | <a href="https://github.com/vNovski">@vNovski</a> | 39 |
-
-_Last updated: 2025-04-03_
+| 🥇 | <a href="https://github.com/ishakhorski">@ishakhorski</a> | 158 |
+| 🥈 | <a href="https://github.com/vNovski">@vNovski</a> | 52 |
+_Last updated: 2025-04-05_
 <!-- TOP-CONTRIBUTORS-END -->
 
 ## 🌈 How to Contribute
