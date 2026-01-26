@@ -18,11 +18,11 @@ We aim to:
 <!-- TOP-CONTRIBUTORS-START -->
 | 🏆 Rank | 👤 User | 🔥 Karma |
 |:-------:|:--------:|:--------:|
-| 🥇 | <a href="https://github.com/ishakhorski">@ishakhorski</a> | 192 |
-| 🥈 | <a href="https://github.com/vNovski">@vNovski</a> | 60 |
-| 🥉 | <a href="https://github.com/DmitryKozich">@DmitryKozich</a> | 12 |
+| 🥇 | <a href="https://github.com/ishakhorski">@ishakhorski</a> | 214 |
+| 🥈 | <a href="https://github.com/vNovski">@vNovski</a> | 108 |
+| 🥉 | <a href="https://github.com/DmitryKozich">@DmitryKozich</a> | 8 |
 
-_Last updated: 2025-04-09_
+_Last updated: 2026-01-26_
 <!-- TOP-CONTRIBUTORS-END -->
 
 ## 🌈 How to Contribute
