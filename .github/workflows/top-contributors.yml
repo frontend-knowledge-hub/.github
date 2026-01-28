@@ -2,8 +2,8 @@ name: Generate Top Contributors Leaderboard
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * 1" # Every Monday at midnight UTC
+  # schedule:
+  #  - cron: "0 0 * * 1" # Every Monday at midnight UTC
 
 jobs:
   generate-leaderboard:
